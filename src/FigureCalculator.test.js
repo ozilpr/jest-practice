@@ -112,7 +112,7 @@ describe('A FigureCalculator', () => {
       expect(spyAdd).toHaveBeenCalledWith(base, 30);
     });
   });
-  
+
   describe('A calculateTriangleArea function', () => {
     it('should throw error when not given 2 parameters', () => {
       const figureCalculator = new FigureCalculator({});
